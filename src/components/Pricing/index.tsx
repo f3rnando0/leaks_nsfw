@@ -34,7 +34,7 @@ export default function Pricing() {
 							<span className="text-[20px] text-neutral-400 font-bold pb-10">
 								€
 							</span>
-							<span className="text-[70px] font-bold">29</span>
+							<span className="text-[70px] font-bold">10</span>
 							<span className="text-[18px] text-neutral-400 font-bold">
 								EUR
 							</span>
@@ -97,12 +97,12 @@ export default function Pricing() {
 								<span className="font-bold">Popular</span>
 							</div>
 						</div>
-						<div className="text-[20px] font-semibold">Premium</div>
+						<div className="text-[20px] font-semibold">Exclusive</div>
 						<div className="flex flex-row gap-2 items-center justify-center">
 							<span className="text-[20px] text-neutral-400 font-bold pb-10">
 								€
 							</span>
-							<span className="text-[70px] font-bold">59</span>
+							<span className="text-[70px] font-bold">35</span>
 							<span className="text-[18px] text-neutral-400 font-bold">
 								EUR
 							</span>
@@ -168,12 +168,12 @@ export default function Pricing() {
 				</div>
 				<div className="w-[364px] h-[540px] bg-neutral-950 rounded-xl cursor-pointer">
 					<div className="h-2/6 bg-zinc-900 rounded-t-xl">
-						<div className="text-[20px] font-semibold pt-8">Standard</div>
+						<div className="text-[20px] font-semibold pt-8">Premium</div>
 						<div className="flex flex-row gap-2 items-center justify-center">
 							<span className="text-[20px] text-neutral-400 font-bold pb-10">
 								€
 							</span>
-							<span className="text-[70px] font-bold">49</span>
+							<span className="text-[70px] font-bold">20</span>
 							<span className="text-[18px] text-neutral-400 font-bold">
 								EUR
 							</span>

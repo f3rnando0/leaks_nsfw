@@ -33,3 +33,7 @@
 .bg-gd-review {
 	background: radial-gradient(circle at center, #3365b8 0px, transparent 40%), black;
 }
+
+.sellix-iframe {
+    color-scheme: none;
+}
