@@ -1,4 +1,5 @@
 import { StarIcon } from "lucide-react";
+import Link from "next/link";
 import Marquee from "react-fast-marquee";
 
 export default function Reviews() {
@@ -343,12 +344,14 @@ export default function Reviews() {
 					</Marquee>
 				</div>
 				<div className="flex flex-row justify-center items-center text-[20px] font-semibold px-4 lg:px-0">
-					<button
-						type="button"
-						className="w-full lg:w-[453.422px] h-[71px] bg-neutral-950 rounded-[50px] hover:brightness-125 transition-all duration-300"
-					>
-						See 100+ Reviews Rating us 4.8/5 -{">"}
-					</button>
+					<Link href="https://www.trustpilot.com/review/leakpragmatic.com" target="_blank">
+						<button
+							type="button"
+							className="w-full lg:w-[453.422px] h-[71px] bg-neutral-950 rounded-[50px] hover:brightness-125 transition-all duration-300"
+						>
+							See 100+ Reviews Rating us 4.8/5 -{">"}
+						</button>
+					</Link>
 				</div>
 			</div>
 		</div>

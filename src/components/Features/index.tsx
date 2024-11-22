@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Features() {
 	return (
 		<div className="py-24" id="features">
@@ -166,7 +168,14 @@ export default function Features() {
 							<span className="text-[22px] font-bold  text-white">
 								What are you waiting for?
 							</span>
-                            <button type="button" className="w-[166.422px] h-[53px] bg-white text-black text-[16px] font-medium rounded-[100px]">Join Now!</button>
+							<Link href="#pricing">
+								<button
+									type="button"
+									className="w-[166.422px] h-[53px] bg-white text-black text-[16px] font-medium rounded-[100px]"
+								>
+									Join Now!
+								</button>
+							</Link>
 						</div>
 					</div>
 				</div>

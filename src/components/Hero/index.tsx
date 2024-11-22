@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Hero() {
 	return (
@@ -43,12 +44,14 @@ export default function Hero() {
 				</span>
 			</div>
 			<div className="pt-2 lg:pt-10">
-				<button
-					type="button"
-					className="bg-blue-500 px-10 py-3 rounded-[30px] text-base font-semibold hover:brightness-110 transition-all"
-				>
-					Join now!
-				</button>
+				<Link href={"#pricing"}>
+					<button
+						type="button"
+						className="bg-blue-500 px-10 py-3 rounded-[30px] text-base font-semibold hover:brightness-110 transition-all"
+					>
+						Join now!
+					</button>
+				</Link>
 			</div>
 		</div>
 	);

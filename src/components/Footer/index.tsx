@@ -5,7 +5,7 @@ export default function Footer() {
 		<div className="flex py-14 p-4 lg:px-96 bg-gd-footer">
 			<div className="flex flex-col justify-start items-start gap-10">
 				<div>
-					<span className="text-[17px] text-white font-bold">LeaksVault</span>
+					<span className="text-[17px] text-white font-bold">LeaksNsfw</span>
 				</div>
 				<div className="flex flex-col gap-3 text-[16px] font-medium text-gray-400">
 					<Link href="#pricing">
